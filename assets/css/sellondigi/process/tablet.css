@@ -1,0 +1,95 @@
+.process{
+    width: 100%;
+    height: 410px;
+    padding: 92px 40px 122px 40px;
+    margin-top: 40px;
+    background-image: url(https://www.digikala.com/statics/img/svg/landing/fletcher-bg.svg);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: auto;
+    z-index: -2;
+}
+.process>.title{
+    width: 100%;
+    height: 73.9px;
+    padding: 12px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.process>.title>p{
+    width: 100%;
+    font-family: iyekan1;
+    font-size: 17px;
+    color: rgb(63, 64, 100);
+}
+.process>.title>.line{
+    width: 70px;
+    height: 2px;
+    background-color: #a41935;
+    margin-top: 8px;
+}
+.process>.process1{
+    width: 100%;
+    height: 106.1px;
+    margin-top: 16px;
+    display: flex;
+    flex-direction: row;
+}
+.process>.process1>.step{
+    width: 236px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.process>.process1>.step>.svg::before{
+    content: "";
+    position: absolute;
+    top: 30px;
+    right: 0;
+    width:236px;
+    transform: translateX(-8px);
+    border-top: 1px dashed #a1a3a8;
+    z-index: -1;
+}
+.process>.process1>.step>.lastsvg::before{
+    display: none;
+}
+.process>.process1>.step>.svg{
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(0deg, rgba(239, 64, 86, .15), rgba(239, 64, 86, .15)), #fff;
+    border: 2px solid #fff;
+    position: relative;
+    border-radius: 50%;
+   padding: 8px;
+}
+.process>.process1>.step>.svg>span{
+    width: 18px;
+    height: 18px;
+    border: 2px solid #fff;
+    position: absolute;
+    bottom: -9px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #a41935;
+    border-radius: 50%;
+    font-family: iyekan1;
+    font-size: 12px;
+    color: white;
+    padding: 4px;
+    text-align: center;
+    line-height: 8px;
+}
+.process>.process1>.step>.svg>svg{
+    width: 40px;
+    height: 40px;
+    
+}
+.process>.process1>.step>p{
+    font-family: iyekan1;
+    font-size: 14px;
+}

@@ -1,0 +1,233 @@
+/* start footer */
+footer.mobile{
+  width: 100%;
+  height: auto !important;
+}
+footer.mobile>.footer{
+  width: 100%;
+  height: 100%;
+  padding: 16px 20px;
+ display: flex;
+ flex-direction: column;
+}
+footer.mobile>.footer>.gotop{
+  width: 101.87px;
+  height: 31.8px;
+   margin: 0 auto;
+}
+footer.mobile>.footer>.gotop>a{
+  width: 100%;
+  height: 100%;
+border-radius: 9999px;
+ 
+  padding: 6px 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(242, 242, 242);
+}
+footer.mobile>.footer>.gotop>a>span{
+  font-family: iyekan1;
+  font-size: 11px;
+  color: rgb(66, 71, 80);
+}
+footer.mobile>.footer>.connection{
+  width: 100%;
+  height: 128px;
+}
+footer.mobile>.footer>.connection>.call, .app{
+  width: 100%;
+  height: 64px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  border-bottom: 1px solid rgb(240, 240, 241);
+}
+footer.mobile>.footer>.connection>.call>.rightside{
+  width: 156.69px;
+  height: 47.2px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+footer.mobile>.footer>.connection>.call>.rightside>.icon{
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: rgb(242, 242, 242);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer.mobile>.footer>.connection>.call>.rightside>.icon>svg{
+  width: 20px;
+  height: 20px;
+}
+footer.mobile>.footer>.connection>.call>.rightside>.text{
+  width: 112.65px;
+  height: 47.2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+footer.mobile>.footer>.connection>.call>.rightside>.text>.first{
+  height: 21.6px;
+  font-family: iyekan1;
+  font-size: 12px;
+  line-height: 21.6px;
+  
+}
+footer.mobile>.footer>.connection>.call>.rightside>.text>.second{
+  height: 21.6px;
+  font-family: iyekan1;
+  font-size: 11.5px;
+  color: rgb(129, 133, 139);
+  line-height: 21.6px;
+}
+footer.mobile>.footer>.connection>.call>a.callbtn{
+  width: 59.4px;
+  height: 32px;
+  background-color: rgb(242, 242, 242);
+  border-radius: 9999px;
+  text-align: center;
+  line-height: 25px;
+}
+footer.mobile>.footer>.connection>.call>a.callbtn>span{
+  font-family: iyekan1;
+  color: rgb(66, 71, 80);
+  font-size: 11px;
+  
+}
+footer.mobile>.footer>.connection>.app>.rightside{
+  width: 156.69px;
+  height: 47.2px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+footer.mobile>.footer>.connection>.app>.rightside>.icon{
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: rgb(242, 242, 242);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer.mobile>.footer>.connection>.app>.rightside>.icon>img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 50%;
+}
+footer.mobile>.footer>.connection>.app>.rightside>.text{
+  width: 112.65px;
+  height: 47.2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+footer.mobile>.footer>.connection>.app>.rightside>.text>.first{
+  height: 21.6px;
+  font-family: iyekan1;
+  font-size: 12px;
+  line-height: 21.6px;
+  
+}
+footer.mobile>.footer>.connection>.app>.rightside>.text>.second{
+  height: 21.6px;
+  font-family: iyekan1;
+  font-size: 11.5px;
+  color: rgb(129, 133, 139);
+  line-height: 21.6px;
+}
+footer.mobile>.footer>.connection>.app>a.appbtn{
+  width: 59.4px;
+  height: 32px;
+  background-color: rgb(242, 242, 242);
+  border-radius: 9999px;
+  text-align: center;
+  line-height: 25px;
+}
+footer.mobile>.footer>.connection>.app>a.appbtn>span{
+  font-family: iyekan1;
+  color: rgb(66, 71, 80);
+  font-size: 11px;
+  
+}
+footer.mobile>.footer>.center{
+  width: 100%;
+  height: 158.25px;
+}
+footer.mobile>.footer>.center>.text{
+  width: 100%;
+  height: 52.75px;
+  border-bottom:1px solid rgb(224, 224, 226);
+}
+footer.mobile>.footer>.interview{
+  width: 100%;
+  height: 200.1px;
+  margin-top: 12px;
+  padding-bottom: 100px;
+}
+footer.mobile>.footer>.interview>h1{
+  width: 100%;
+  height: 20.73px;
+  margin-bottom: 8px;
+  font-family: iyekan1;
+  font-size: 12px;
+  line-height: 20px;
+  color: rgb(66, 71, 80);
+}
+footer.mobile>.footer>.interview>p{
+  width: 100%;
+  font-family: iyekan1;
+  font-size: 10.5px;
+  color: rgb(129, 133, 139);
+  line-height: 200%;
+}
+footer.mobile>.footer>.interview>.span{
+ width: 108.99px;
+ height: 30.1px;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: space-between;
+}
+footer.mobile>.footer>.interview>.span>span{
+  font-family: iyekan1;
+  color: rgb(161, 163, 168);
+  font-size: 13px;
+}
+
+
+/* footer bootstrap */
+.accordion-button::after{
+  margin-right: auto;
+  margin-left: 0;
+}
+.accordion-item{
+  border-left: none;
+  border-top: none;
+  border-right: none;
+}
+.accordion-button{
+  font-family: iyekan1;
+   font-size: 13.2px;
+}
+.accordion{
+  height: 211px;
+  width: 100%;
+}
+/* footer bootstrap */
+/* end footer */
+
+
+footer.tabdesk{
+  display: none;
+}

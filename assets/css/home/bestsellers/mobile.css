@@ -1,0 +1,193 @@
+/* start bestsellers */
+.bestsellers{
+  width: 100%;
+  height: 302px;
+  display: flex;
+  flex-direction: column;
+}
+.bestsellers>.title{
+  width: calc(100% - 32px);
+  height: 25.2px;
+  margin: 20px 16px 12px 16px;
+}
+.bestsellers>.title>h5{
+  font-family: iyekan1;
+  font-size: 14px;
+  margin-bottom: 0;
+  line-height: 25px;
+}
+.bestsellers>.bestsellerswiper{
+  width: 100%;
+  height: 244.8px;
+}
+.bestsellers>.bestsellerswiper>.swiper-wrapper{
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+  margin-right: 20px;
+}
+.bestsellers>.bestsellerswiper>.swiper-wrapper>.swiper-slide{
+  width: 339.33px !important;
+  height: 73.6px !important;
+  padding-left: 12px;
+  /* margin-bottom: 8px; */
+}
+.bestsellers>.bestsellerswiper>.swiper-wrapper>.swiper-slide>a{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid rgb(224, 224, 226);
+  border-radius: 8px;
+}
+.bestsellers>.bestsellerswiper>.swiper-wrapper>.swiper-slide>a>.img{
+  width: 72px;
+  height: 72px;
+  background-color: rgb(240, 240, 241);
+  margin-left: 12px;
+  border-radius: 8px;
+}
+.bestsellers>.bestsellerswiper>.swiper-wrapper>.swiper-slide>a>.img>img{
+  width: 100%;
+  height: 100%;
+}
+.bestsellers>.bestsellerswiper>.swiper-wrapper>.swiper-slide>a>.description{
+  width: 241.73px;
+  height: 47.74px;
+  position: relative;
+ 
+}
+.bestsellers>.bestsellerswiper>.swiper-wrapper>.swiper-slide>a>.description>p{
+  width: 100%;
+  height: 47.74px;
+}
+.bestsellers>.bestsellerswiper>.swiper-wrapper>.swiper-slide>a>.description>p>span.num{
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: red;
+  color: white;
+  font-family: iyekan1;
+  border-radius: 50%;
+ 
+}
+.bestsellers>.bestsellerswiper>.swiper-wrapper>.swiper-slide>a>.description>p>span.text{
+  font-family: iyekan3;
+  display: inline-block;
+  font-size: 12px;
+  width: 241.73px;
+  height: 39.47px;
+  line-height: 200%;
+  text-align: start;
+  position: absolute;
+  top: 0;
+  right: 30px;
+  color: rgb(65, 65, 65);
+}
+/* end bestsellers */
+
+
+
+/* start hotitems */
+.hotitems{
+  width: 100%;
+  height: 302px;
+  display: flex;
+  flex-direction: column;
+}
+.hotitems>.title{
+  width: calc(100% - 32px);
+  height: 25.2px;
+  margin: 20px 16px 12px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+}
+.hotitems>.title>svg{
+  width: 24px;
+  height: 24px;
+}
+.hotitems>.title>h5{
+  font-family: iyekan1;
+  font-size: 14px;
+  margin-bottom: 0;
+  line-height: 25px;
+}
+.hotitems>.hotitemswiper{
+  width: 100%;
+  height: 244.8px;
+}
+.hotitems>.hotitemswiper>.swiper-wrapper{
+  width: 100%;
+  height: 100%;
+  margin-right: 20px;
+}
+.hotitems>.hotitemswiper>.swiper-wrapper>.swiper-slide{
+  width: 339.33px !important;
+  height: 73.6px !important;
+  padding-left: 12px;
+  /* margin-bottom: 8px; */
+}
+.hotitems>.hotitemswiper>.swiper-wrapper>.swiper-slide>a{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid rgb(224, 224, 226);
+  border-radius: 8px;
+}
+.hotitems>.hotitemswiper>.swiper-wrapper>.swiper-slide>a>.img{
+  width: 72px;
+  height: 72px;
+  background-color: rgb(240, 240, 241);
+  margin-left: 12px;
+  border-radius: 8px;
+}
+.hotitems>.hotitemswiper>.swiper-wrapper>.swiper-slide>a>.img>img{
+  width: 100%;
+  height: 100%;
+}
+.hotitems>.hotitemswiper>.swiper-wrapper>.swiper-slide>a>.description{
+  width: 241.73px;
+  height: 47.74px;
+  position: relative;
+ 
+}
+.hotitems>.hotitemswiper>.swiper-wrapper>.swiper-slide>a>.description>p{
+  width: 100%;
+  height: 47.74px;
+}
+.hotitems>.hotitemswiper>.swiper-wrapper>.swiper-slide>a>.description>p>span.num{
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: red;
+  color: white;
+  font-family: iyekan1;
+  border-radius: 50%;
+ 
+}
+.hotitems>.hotitemswiper>.swiper-wrapper>.swiper-slide>a>.description>p>span.text{
+  font-family: iyekan3;
+  display: inline-block;
+  font-size: 12px;
+  width: 241.73px;
+  height: 39.47px;
+  line-height: 200%;
+  text-align: start;
+  position: absolute;
+  top: 0;
+  right: 30px;
+  color: rgb(65, 65, 65);
+}
+/* end hotitems */

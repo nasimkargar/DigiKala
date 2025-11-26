@@ -1,0 +1,82 @@
+.topbody{
+    width: 100%;
+}
+.topbody>.full{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.topbody>.full>.title{
+    width: 100%;
+    height: 109.03px;
+    margin-bottom: 16px;
+}
+.topbody>.full>.title::before{
+    content: "";
+    background-image: url(https://www.digikala.com/statics/img/svg/typography/bestSellingPattern.svg);
+    position: absolute;
+    width: 100%;
+    height: 109.03px;
+    opacity: 25%;
+    background-position: 50%;
+}
+.topbody>.full>.title>h1{
+    display: block;
+    width: 206.4px;
+    height: 109.3px;
+    padding: 20px 0;
+    margin: auto;
+    font-family: iyekan1;
+    font-size: 32px;
+    color: rgb(239, 57, 78);
+    background-color: #fff;
+    line-height: 200%;
+}
+.topbody>.full>.date{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.topbody>.full>.category{
+    width: 100%;
+    padding: 20px 8px 20px 12px;
+}
+.topbody>.full>.date>span.right{
+    width: 360px;
+    background: linear-gradient(90deg, #e6123d, hsla(0, 0%, 100%, 0));
+    height: 2px;
+}
+.topbody>.full>.date>span.left{
+    width: 360px;
+    background: linear-gradient(90deg,  hsla(0, 0%, 100%, 0),#e6123d);
+    height: 2px;
+}
+.topbody>.full>.date>.day{
+    width: 290.59px;
+    height: 30.1px;
+    padding: 0 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.topbody>.full>.date>.day>a{
+    display: inline-block;
+    width: 115.29px;
+    height: 100%;
+}
+.topbody>.full>.date>.day>a>span{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding: 0 16px;
+    font-family: iyekan1;
+    color: #ef4056;
+    font-size: 14px;
+}
+.topbody>.full>.date>.day>a>span.two{
+    color: rgb(12, 12, 12);
+}

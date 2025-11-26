@@ -1,0 +1,70 @@
+.comision{
+    /* height: 735.84px; */
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+.comision>.gridcomision{
+    width: 56%;
+    height: 560.34px;
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    grid-template-rows: repeat(4 ,1fr);
+    gap: 8px;
+    margin-top: 16px;
+}
+.comision>.gridcomision>.item{
+    
+    padding: 8px 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+.comision>.gridcomision>.item>svg{
+    width: 32px;
+    height: 32px;
+}
+.comision>.gridcomision>.item>p{
+    height: 25.8px;
+    font-family: iyekan1;
+    font-size: 12px;
+    line-height: 200%;
+}
+.comision>.gridcomision>.item>span{
+    height: 23.8px;
+    font-family: iyekan1;
+    font-size: 11px;
+    line-height: 200%;
+    color: rgba(63, 64, 100, 0.751);
+}
+.comision>.top{
+    width: 448px;
+    margin-left: 80px;
+    /* height: 123.5px; */
+}
+.comision>.top>.title{
+    width: 100%;
+    height: 73.9px;
+    padding: 12px 0;
+}
+.comision>.top>.title>p{
+    
+    width: 100%;
+    font-family: iyekan1;
+    font-size: 16px;
+}
+.comision>.top>.title>.line{
+    width: 70px;
+    height: 2px;
+    background-color: #a41935;
+    margin-top: 8px;
+}
+.comision>.top>p{
+    font-family: iyekan3;
+    font-size: 15px;
+    line-height: 250%;
+}

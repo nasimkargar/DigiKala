@@ -1,0 +1,168 @@
+/* start banner */
+.banner1 {
+  width: 100%;
+  height: 180px;
+  margin-top: 16px;
+  display: block;
+}
+.banner1 > .bannerswiper {
+  height: 100%;
+  width: 100%;
+}
+.banner1 > .bannerswiper > .swiper-wrapper {
+  width: 100%;
+  height: 100%;
+}
+.banner1 > .bannerswiper > .swiper-wrapper > .swiper-slide {
+  width: 100%;
+  height: 100%;
+}
+.banner1 > .bannerswiper > .swiper-wrapper > .swiper-slide > img {
+  width: 100%;
+  height: 100%;
+
+  border-radius: 8px;
+}
+/* end banner */
+
+
+/* start banner2 */
+.banner2{
+    width: calc(100% - 32px);
+    height: 240px;
+    margin-top: 20px;
+    margin: 20px 16px 0 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 8px;
+}
+
+.banner2>.firstrow{
+    width: 100%;
+    height: 48.5%;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    
+}
+.banner2>.firstrow>a{
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    
+}
+.banner2>.firstrow>a>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.banner2>.secondrow{
+    width: 100%;
+    height: 48.5%;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    
+}
+.banner2>.secondrow>a{
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    
+}
+.banner2>.secondrow>a>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+/* end banner2 */
+
+
+
+/* start doublebanner1 */
+.doublebanner1{
+  width: 100%;
+  height: clamp(325px, 80vw, 1517px);
+  display: flex;
+  flex-direction: column;
+  padding:20px 16px 0 16px;
+  gap: 8px;
+}
+.doublebanner1>.firstimg{
+  width: 100%;
+  height: 48%;
+}
+.doublebanner1>.firstimg>a{
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.doublebanner1>.firstimg>a>img{
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+/* end doublebanner1 */
+
+
+/* start singlebanner */
+.singlebanner{
+  width: calc(100% - 32px);
+  height: clamp(117px, 50vw, 398px);
+  margin: 20px 16px 0 16px;
+}
+.singlebanner>a{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.singlebanner>a>img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+/* end singlebanner */
+
+
+
+/* start doublebanner */
+.doublebanner{
+  width: 100%;
+  height: clamp(260px, 80vw, 825px);
+  display: flex;
+  flex-direction: column;
+  padding:20px 16px 0 16px;
+  gap: 8px;
+}
+.doublebanner>.firstimg{
+  width: 100%;
+  height: 48%;
+}
+.doublebanner>.firstimg>a{
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.doublebanner>.firstimg>a>img{
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+/* end doublebanner */
+
+
+
+
+.fullbanner{
+  display: none;
+}
+
+.amazedbanner{
+  display: none;
+}

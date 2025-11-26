@@ -1,0 +1,93 @@
+header.mobile{
+  display: block;
+  width: 100%;
+  height: 64px;
+  background: url(https://www.digikala.com/statics/img/svg/typography/bestSellingPattern.svg) no-repeat;
+  background-size: cover;
+  background-color: #fff;
+  
+}
+header.mobile>.header{
+  width: 100%;
+  height: 64px;
+  padding: 16px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff7c;
+}
+header.mobile>.header>.title>span{
+  font-family: iyekan3;
+  font-size: 22px;
+  color: #ef394e;
+}
+header.mobile>.header>.back{
+  width: 24px;
+  height: 24px;
+}
+header.mobile>.header>.share{
+  width: 24px;
+  height: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* start navbar */
+.navbar {
+  width: 100%;
+  height: 54.5px;
+  /* background-color: #754747; */
+  position: fixed;
+  bottom: 0;
+  z-index: 99999999999999;
+  background-color: #fff;
+}
+.navbar > nav {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+}
+.navbar > nav > a {
+  width: 25%;
+  height: 100%;
+  padding: 4px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.navbar > nav > a > .icon {
+  width: 24px;
+  height: 24px;
+}
+.navbar > nav > a > p {
+  height: 22px;
+  font-family: iyekan3;
+  font-size: 10px;
+  line-height: 22px;
+  color: rgb(66, 71, 80);
+  margin-bottom: 0;
+}
+/* end navbar */
+
+
+.banner, .headertabdesk{
+  display: none;
+}

@@ -1,0 +1,35 @@
+@import url(./setting.css);
+@import url(./home/header/header.css);
+@import url(./home/offbanner/offbanner.css);
+@import url(./home/storyline/storyline.css);
+@import url(./home/banner/banner.css);
+@import url(./home/slider/slider.css);
+@import url(./home/amazed/amazed.css);
+@import url(./home/categories/categories.css);
+@import url(./home/favbrands/favbrands.css);
+@import url(./home/repeatedslider/repeatedslider.css);
+@import url(./home/videopart/videopart.css);
+@import url(./home/bestsellers/bestsellers.css);
+@import url(./home/read/read.css);
+@import url(./home/footer/footer.css);
+@import url(./home/gridpart/gridpart.css);
+@import url(./home/bestsellertabdesk/best.css);
+
+
+
+
+@import url(./mostseller/header/header.css);
+@import url(./mostseller/topbody/topbody.css);
+@import url(./mostseller/mainbody/mainbody.css);
+@import url(./mostseller/footer/footer.css);
+
+
+
+
+@import url(./sellondigi/header/header.css);
+@import url(./sellondigi/banner/banner.css);
+@import url(./sellondigi/process/process.css);
+@import url(./sellondigi/documents1/documents.css);
+@import url(./sellondigi/comision/comision.css);
+@import url(./sellondigi/sending/sending.css);
+@import url(./sellondigi/storiess/stories.css);
