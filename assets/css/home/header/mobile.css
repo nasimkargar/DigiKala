@@ -14,7 +14,7 @@
 }
 @keyframes shrinkheader2 {
   to {
-    height: 110px;
+    height: 150px;
   }
 }
 @keyframes hideicons {
@@ -417,10 +417,10 @@ header > .mainheader > .search > .inseach > .bottom {
   flex-direction: row;
   align-items: center;
   gap: 6px;
-  animation-timeline: scroll();
+  /* animation-timeline: scroll();
   animation-name: hidebar;
   animation-range:0px 100px;
-  animation-fill-mode: both;
+  animation-fill-mode: both; */
 }
 header > .mainheader > .search > .inseach > .bottom > .city {
   width: 133.07px;
